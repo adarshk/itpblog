@@ -62,6 +62,8 @@
 <!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/images/apple-touch-icon-144x144-precomposed.png">
 
+
+
 </head>
 
 <body id="page" class="feature" itemscope itemtype="http://schema.org/WebPage">
@@ -164,7 +166,10 @@
 <div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">title</span><span class="p-Indicator">:</span>            <span class="l-Scalar-Plain">Site Title</span>
 <span class="l-Scalar-Plain">description</span><span class="p-Indicator">:</span>      <span class="l-Scalar-Plain">Describe your website here.</span>
 <span class="l-Scalar-Plain">disqus_shortname</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">shortname</span>
-<span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span>              <span class="l-Scalar-Plain">http://your-website.com</span>
+<span class="c1"># Your site&#39;s domain goes here. When working locally use localhost server leave blank</span>
+<span class="c1"># PS. If you set this wrong stylesheets and scripts won&#39;t load and most links will break.</span>
+<span class="c1"># PPS. If you leave it blank for local testing home links won&#39;t work, they&#39;ll be fine for live domains though.</span>
+<span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span>              <span class="l-Scalar-Plain">http://localhost:4000</span>
 
 <span class="c1"># Owner/author information</span>
 <span class="l-Scalar-Plain">owner</span><span class="p-Indicator">:</span>
@@ -247,7 +252,7 @@
 
 <h3 id="configyml">_config.yml</h3>
 
-<p>Most of the variables found here are used in the .html files found in <code>_includes</code> if you need to add or remove anything. A good place to start would be to add the <code>title</code>, <code>description</code>, and <code>url</code> for your site. Links are absolute and prefixed with <code>{{ site.url }}</code> in the various <code>_includes</code> and <code>_layouts</code>, so remember to comment out <code>url</code><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> when working locally to avoid broken links.</p>
+<p>Most of the variables found here are used in the .html files found in <code>_includes</code> if you need to add or remove anything. A good place to start would be to add the <code>title</code>, <code>description</code>, and <code>url</code> for your site. Links are absolute and prefixed with <code>{{ site.url }}</code> in the various <code>_includes</code> and <code>_layouts</code>, so remember to properly set <code>url</code><sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> to <code>http://localhost:4000</code> when developing locally.</p>
 
 <h4 id="disqus-comments">Disqus Comments</h4>
 
@@ -285,6 +290,18 @@
     <span class="l-Scalar-Plain">url</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">http://mademistakes.com</span>
     <span class="l-Scalar-Plain">external</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">true</span> 
 </code></pre></div>
+
+<h4 id="background-images">Background Images</h4>
+
+<p>To utilize this “feature” just add the following YAML to a post’s front matter. (<a href="http://mmistakes.github.io/hpstr-jekyll-theme/background-image/">View demo</a>)</p>
+
+<div class="highlight"><pre><code class="yaml"><span class="l-Scalar-Plain">image</span><span class="p-Indicator">:</span>
+  <span class="l-Scalar-Plain">background</span><span class="p-Indicator">:</span> <span class="l-Scalar-Plain">filename.png</span>
+</code></pre></div>
+
+<p>This little bit of YAML makes the assumption that your background image asset is in the <code>/images</code> folder. If you place it somewhere else or are hot linking from the web, just include the full http(s):// URL. Either way you should have a background image that is tiled.</p>
+
+<p>If you want to set a background image for the entire site just add <code>background: filename.png</code> to your <code>_config.yml</code> and BOOM — background images on every page!</p>
 
 <h4 id="other-stuff">Other Stuff</h4>
 
@@ -365,14 +382,14 @@
 
 <h2 id="license">License</h2>
 
-<p>This theme is free and open source software, distributed under the <a href="http://localhost:4000/LICENSE">GNU General Public License</a> version 2 or later. So feel free to use this Jekyll theme on your site without linking back to me or including a disclaimer. </p>
+<p>This theme is free and open source software, distributed under the <a href="http://localhost:4000/LICENSE">GNU General Public License</a> version 2 or later. So feel free to to modify this theme to suit your needs.</p>
 
 <hr />
 
 <div class="footnotes">
   <ol>
     <li id="fn:1">
-      <p>Used to generate absolute urls in <code>sitemap.xml</code>, <code>feed.xml</code>, and for canonical urls in <code>head.html</code>. Don’t include a trailing <code>/</code> in your base url ie: http://mademistakes.com. When developing locally remove or comment out this line so local CSS, JS, and image assets are used. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+      <p>Used to generate absolute urls in <code>sitemap.xml</code>, <code>feed.xml</code>, and for canonical urls in <code>head.html</code>. Don’t include a trailing <code>/</code> in your base url ie: http://mademistakes.com. When developing locally I suggest using http://localhost:4000 or whatever localhost you’re using to properly load all theme stylesheets, scripts, and image assets. If you leave this variable blank all links will resolve correctly except those pointing to home. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
     </li>
     <li id="fn:2">
       <p>If you’re using GitHub Pages to host your site be aware that plugins are disabled. So you’ll need to build your site locally and then manually deploy if you want to use this sweet plugin. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
