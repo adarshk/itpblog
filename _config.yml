@@ -2,8 +2,8 @@ title:            ITP Blog
 description:      Describe your website here.
 disqus_shortname: adarshk
 #Comment out url when working locally to resolve base urls correctly
-url:              http://localhost:4000
-#url:              http://adarshk.com/itp
+#url:              http://localhost:4000
+url:              http://adarshk.com/itp
 
 # Owner/author information
 owner:
