@@ -4,13 +4,252 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://adarshk.com/itp/feed.xml" />
 <link rel="alternate" type="text/html" href="http://adarshk.com/itp" />
-<updated>2014-01-29T23:31:49-05:00</updated>
+<updated>2014-03-06T18:27:13-05:00</updated>
 <id>http://adarshk.com/itp/</id>
 <author>
   <name>Adarsh Kosuru</name>
   <uri>http://adarshk.com/itp/</uri>
   <email>adarshkosuru @ email.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Mashups Week 4]]></title>
+  <link>http://adarshk.com/itp/Mashups-wk4</link>
+  <id>http://adarshk.com/itp/Mashups-wk4</id>
+  <published>2014-03-02T00:00:00-05:00</published>
+  <updated>2014-03-02T00:00:00-05:00</updated>
+  <author>
+    <name>Adarsh Kosuru</name>
+    <uri>http://adarshk.com/itp</uri>
+    <email>adarshkosuru @ email.com</email>
+  </author>
+  <content type="html">&lt;h2 id=&quot;section&quot;&gt;#&lt;/h2&gt;
+
+&lt;p&gt;I used last fm api to retrieve the top tracks from a list of countries.
+For each track, I am getting the number of listeners along with the name of the track and artist.
+I then use google maps to get the coordinates for each country. I am displaying these as markers on the map.&lt;/p&gt;
+
+&lt;p&gt;I also used two.js to put dots on the map. However I want to continue working on this next week to animate the dots according to the track.&lt;/p&gt;
+
+&lt;p&gt;Find the code &lt;a href=&quot;mashups/wk4/withMarkers/project.html&quot;&gt;here&lt;/a&gt; with markers. 
+Find the code &lt;a href=&quot;mashups/wk4/withDots/project.html&quot;&gt;here&lt;/a&gt; with dots. &lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://adarshk.com/itp/Mashups-wk4&quot;&gt;Mashups Week 4&lt;/a&gt; was originally published by Adarsh Kosuru at &lt;a href=&quot;http://adarshk.com/itp&quot;&gt;ITP Blog&lt;/a&gt; on March 02, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Mashups Week 2]]></title>
+  <link>http://adarshk.com/itp/Mashups-wk-2</link>
+  <id>http://adarshk.com/itp/Mashups-wk-2</id>
+  <published>2014-02-25T00:00:00-05:00</published>
+  <updated>2014-02-25T00:00:00-05:00</updated>
+  <author>
+    <name>Adarsh Kosuru</name>
+    <uri>http://adarshk.com/itp</uri>
+    <email>adarshkosuru @ email.com</email>
+  </author>
+  <content type="html">&lt;p&gt;Here are my solutions for the problems on &lt;a href=&quot;http://eloquentjavascript.net/2nd_edition/preview/02_program_structure.html&quot;&gt;this page&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;exercise-3&quot;&gt;Exercise 3&lt;/h4&gt;
+
+&lt;p&gt;//Solution for Exercise 3
+var height =8,width=8;
+var st = “”;&lt;br /&gt;
+for(var j=0;j&amp;lt;width;j++){
+for(var i=0;i&amp;lt;height;i++){&lt;/p&gt;
+
+&lt;p&gt;(j%2===0) ? ( (i%2===0) ? st = st + “ “ : st = st + “#”) : ((i%2===0) ? st = st + “#” : st = st + “ “)&lt;/p&gt;
+
+&lt;p&gt;}
+console.log(st+’\n’);
+st = “”;
+}&lt;/p&gt;
+
+&lt;h4 id=&quot;exercise-2&quot;&gt;Exercise 2&lt;/h4&gt;
+&lt;p&gt;// Solution for Exercise 2&lt;/p&gt;
+
+&lt;p&gt;for(var i=0;i&amp;lt;100;i++){
+  var fzz = “Fizz”;
+  var bzz = “Buzz”;&lt;/p&gt;
+
+&lt;p&gt;if(i%3!==0){&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;if(i%5!==0)
+  bzz = &quot;&quot;;
+
+console.log(bzz || i);   }
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;else {
+    console.log(fzz);&lt;/p&gt;
+
+&lt;p&gt;if(i%5===0)
+    console.log(fzz+bzz);
+  }
+}&lt;/p&gt;
+
+&lt;h4 id=&quot;exercise-1&quot;&gt;Exercise 1&lt;/h4&gt;
+
+&lt;p&gt;//Solution 1 - Exercise 1
+for(var i=”#”,j=1;j&amp;lt;8;i+=”#”,j++){&lt;/p&gt;
+
+&lt;p&gt;console.log(i);
+}&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://adarshk.com/itp/Mashups-wk-2&quot;&gt;Mashups Week 2&lt;/a&gt; was originally published by Adarsh Kosuru at &lt;a href=&quot;http://adarshk.com/itp&quot;&gt;ITP Blog&lt;/a&gt; on February 25, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Always on Always Connected Week 2 ]]></title>
+  <link>http://adarshk.com/itp/mobile-payments-aoac</link>
+  <id>http://adarshk.com/itp/mobile-payments-aoac</id>
+  <published>2014-02-10T00:00:00-05:00</published>
+  <updated>2014-02-10T00:00:00-05:00</updated>
+  <author>
+    <name>Adarsh Kosuru</name>
+    <uri>http://adarshk.com/itp</uri>
+    <email>adarshkosuru @ email.com</email>
+  </author>
+  <content type="html">&lt;h3 id=&quot;mobile-payments-presentation&quot;&gt;‘Mobile Payments Presentation’&lt;/h3&gt;
+
+&lt;p&gt;The task this week was to choose any topic related to how connected devices affect our lives, particularly mobile phones. I and Yu Ji decided to present on mobile payments.&lt;/p&gt;
+
+&lt;p&gt;The problem is that a lot of tech companies have been trying to solve the problem of mobile payments. It particularly took off when square reader was introduced a few years back. And then a lot services started using NFC especially google wallet. With the recent talks that Apple maybe introducing its own service, this is definitely going to be a huge market in itself. But until now, it has not been as successful as the industry had hoped initially. This has seen Google going back to introducing a debit card based service along with Mastercard. In the presentation below, we also talk about the future implications mobile payments may have. Please take a look at it below.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://docs.google.com/presentation/d/1w51Qr0uN__kfrVuh0B0rLsCLV5Q9TKDbLcDDlu2nFZY/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;299&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://adarshk.com/itp/mobile-payments-aoac&quot;&gt;Always on Always Connected Week 2 &lt;/a&gt; was originally published by Adarsh Kosuru at &lt;a href=&quot;http://adarshk.com/itp&quot;&gt;ITP Blog&lt;/a&gt; on February 10, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Design Expo week 2]]></title>
+  <link>http://adarshk.com/itp/Design-expo-wk2</link>
+  <id>http://adarshk.com/itp/Design-expo-wk2</id>
+  <published>2014-02-10T00:00:00-05:00</published>
+  <updated>2014-02-10T00:00:00-05:00</updated>
+  <author>
+    <name>Adarsh Kosuru</name>
+    <uri>http://adarshk.com/itp</uri>
+    <email>adarshkosuru @ email.com</email>
+  </author>
+  <content type="html">&lt;h3 id=&quot;different-concepts-for-connected-sensors&quot;&gt;3 different concepts for connected sensors&lt;/h3&gt;
+
+&lt;p&gt;This week we gave the presentation on 3 different sensor concepts that we would like to see in the future. I think these are particularly useful and can easily be integrated into the existing infrasturcture.&lt;/p&gt;
+
+&lt;iframe src=&quot;https://docs.google.com/presentation/d/1kYf-sx6i_fOZE8eR827o5RdaeDnFIwIaIhwhVnWNUYs/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;299&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://adarshk.com/itp/Design-expo-wk2&quot;&gt;Design Expo week 2&lt;/a&gt; was originally published by Adarsh Kosuru at &lt;a href=&quot;http://adarshk.com/itp&quot;&gt;ITP Blog&lt;/a&gt; on February 10, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Always on Always Connected Week 2 task]]></title>
+  <link>http://adarshk.com/itp/AOAC-week2</link>
+  <id>http://adarshk.com/itp/AOAC-week2</id>
+  <published>2014-02-10T00:00:00-05:00</published>
+  <updated>2014-02-10T00:00:00-05:00</updated>
+  <author>
+    <name>Adarsh Kosuru</name>
+    <uri>http://adarshk.com/itp</uri>
+    <email>adarshkosuru @ email.com</email>
+  </author>
+  <content type="html">&lt;p&gt;I decide to make a concept for a fun game in which photos are pulled from your social feed or from the current trending news and you have to fill in a place where the event in the photograph is taking place. I thought this would be fun to not only play but also learn and gain knowledge. I decided on this as I didnt find anything out there that was similar. I found one which uses google street view but does not use photographs taken from your friends social feed.&lt;/p&gt;
+
+&lt;h5 id=&quot;utitleu---photo-guesser&quot;&gt;&lt;u&gt;Title&lt;/u&gt; - Photo Guesser&lt;/h5&gt;
+
+&lt;h5 id=&quot;uconceptu&quot;&gt;&lt;u&gt;Concept&lt;/u&gt;&lt;/h5&gt;
+&lt;p&gt;A game in which a user has to guess the place where the photo was taken based on photos from google images, flickr, Instagram etc and from photos take by his friends on social networks and also from top news stories of the last 24 hours.&lt;/p&gt;
+
+&lt;h5 id=&quot;uuseru&quot;&gt;&lt;u&gt;User&lt;/u&gt;&lt;/h5&gt;
+&lt;p&gt;A user would be someone who is interested in playing a game for fun or entertainment and also gain some knowledge from the process.&lt;/p&gt;
+
+&lt;h5 id=&quot;ustoryu&quot;&gt;&lt;u&gt;Story&lt;/u&gt;&lt;/h5&gt;
+&lt;p&gt;A user is interested in keeping up with news, his social feed or just wants to explore the world. Instead of showing them articles, the user sees the world through photos. If they get the right answers they are given a short summary of the event and can explore more from inside the app.&lt;/p&gt;
+
+&lt;h5 id=&quot;uwireframesu&quot;&gt;&lt;u&gt;Wireframes&lt;/u&gt;&lt;/h5&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://adarshk.com/itp/images/work/AOAC-first2.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://adarshk.com/itp/images/work/AOAC-last2.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://adarshk.com/itp/images/work/allWireframes.png&quot; alt=&quot;Image&quot; /&gt;&lt;/p&gt;
+
+&lt;!--
+&lt;figure&gt;
+	&lt;img src=&quot;images/work/AOAC-first2.png&quot; alt=&quot;StartScreen&quot;&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;images/work/AOAC-last2.png&quot; alt=&quot;GameScreen&quot;&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+	&lt;img src=&quot;images/work/allWireframes.png&quot; alt=&quot;GameScreen&quot;&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;h4 id=&quot;part-2---response-to-the-fable-of-the-user-centered-designer&quot;&gt;Part 2 - Response to ‘The Fable of the User-Centered Designer’&lt;/h4&gt;
+
+&lt;p&gt;After reading the &lt;a href=&quot;http://www.userfocus.co.uk/pdf/fable.pdf&quot;&gt;book&lt;/a&gt;, its amazing how the author uses examples and story to clearly drive the important points. A lot designers are drowned in decisions about what to use and forget completely about the actual users. The 3 key points that the author makes are I think pretty powerful. I also think it extends beyond design to everything from programming to writing reusable code that can be maintained to aesthetics and ergonomics in any product. &lt;/p&gt;
+
+&lt;p&gt;The philosophy somewhat reflects the current trend which is to move quickly, fail early and iterate. Also the fact that, this has to be done in every stage of the proces because its easy to lose focus if only done the first time. The early focus on how everyday users use it is much more important than how you as a designer may find it more pleasing. Approaching the task from the target audience perspective is will pay off in the end. s&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://adarshk.com/itp/AOAC-week2&quot;&gt;Always on Always Connected Week 2 task&lt;/a&gt; was originally published by Adarsh Kosuru at &lt;a href=&quot;http://adarshk.com/itp&quot;&gt;ITP Blog&lt;/a&gt; on February 10, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Mashups Week 1]]></title>
+  <link>http://adarshk.com/itp/Mashups-week-1</link>
+  <id>http://adarshk.com/itp/Mashups-week-1</id>
+  <published>2014-02-06T00:00:00-05:00</published>
+  <updated>2014-02-06T00:00:00-05:00</updated>
+  <author>
+    <name>Adarsh Kosuru</name>
+    <uri>http://adarshk.com/itp</uri>
+    <email>adarshkosuru @ email.com</email>
+  </author>
+  <content type="html">&lt;h3 id=&quot;open-api&quot;&gt;Open API&lt;/h3&gt;
+
+&lt;p&gt;For open API this week, I initialy decided to use DuckDuckGo’s API but after coming across Giphy’s open &lt;a href=&quot;https://github.com/giphy/GiphyAPI&quot;&gt;API&lt;/a&gt; I couldnt resist.The API is well documented and JSON can be retrived with a url similar to this format. &lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;http://api.giphy.com/v1/gifs/search?q=funny+cat&amp;amp;api_key=dc6zaTOxFJmzC 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;For example a search for the terms ‘are+you+serious’ returns json with a bunch of gif urls with different formats such as fixed height, fixed width etc.  You can also retrieve gifs by id, tag and trending.By reading their license, it looks like, the number of requests are determined at their discretion but since its in beta they are allowing unrestricted access.&lt;/p&gt;
+
+&lt;p&gt;You can also find the html/css source &lt;a href=&quot;mashups/wk1/index.html&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://adarshk.com/itp/Mashups-week-1&quot;&gt;Mashups Week 1&lt;/a&gt; was originally published by Adarsh Kosuru at &lt;a href=&quot;http://adarshk.com/itp&quot;&gt;ITP Blog&lt;/a&gt; on February 06, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Design Expo]]></title>
+  <link>http://adarshk.com/itp/Design-Expo-Week-1</link>
+  <id>http://adarshk.com/itp/Design-Expo-Week-1</id>
+  <published>2014-02-03T00:00:00-05:00</published>
+  <updated>2014-02-03T00:00:00-05:00</updated>
+  <author>
+    <name>Adarsh Kosuru</name>
+    <uri>http://adarshk.com/itp</uri>
+    <email>adarshkosuru @ email.com</email>
+  </author>
+  <content type="html">&lt;h3 id=&quot;week-1-design-expo-presentation&quot;&gt;Week 1 Design Expo presentation&lt;/h3&gt;
+
+&lt;h4 id=&quot;sensing-the-future-of-retail&quot;&gt;Sensing the future of retail&lt;/h4&gt;
+
+&lt;iframe src=&quot;https://docs.google.com/presentation/d/1M6KbpjVgGTAmso_Edl8Z_o3gKrLXLdn-oafEQJR2qbI/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;299&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://adarshk.com/itp/Design-Expo-Week-1&quot;&gt;Design Expo&lt;/a&gt; was originally published by Adarsh Kosuru at &lt;a href=&quot;http://adarshk.com/itp&quot;&gt;ITP Blog&lt;/a&gt; on February 03, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
