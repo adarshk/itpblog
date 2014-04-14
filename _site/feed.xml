@@ -4,13 +4,39 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://adarshk.com/itp/feed.xml" />
 <link rel="alternate" type="text/html" href="http://adarshk.com/itp" />
-<updated>2014-03-06T18:28:51-05:00</updated>
+<updated>2014-04-14T11:52:39-04:00</updated>
 <id>http://adarshk.com/itp/</id>
 <author>
   <name>Adarsh Kosuru</name>
   <uri>http://adarshk.com/itp/</uri>
   <email>adarshkosuru @ email.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Dynamic web - Project Idea]]></title>
+  <link>http://adarshk.com/itp/DynamicWebWeek1</link>
+  <id>http://adarshk.com/itp/DynamicWebWeek1</id>
+  <published>2014-04-14T00:00:00-04:00</published>
+  <updated>2014-04-14T00:00:00-04:00</updated>
+  <author>
+    <name>Adarsh Kosuru</name>
+    <uri>http://adarshk.com/itp</uri>
+    <email>adarshkosuru @ email.com</email>
+  </author>
+  <content type="html">&lt;h3 id=&quot;story-telling-app&quot;&gt;Story Telling app&lt;/h3&gt;
+
+&lt;h4 id=&quot;description&quot;&gt;Description&lt;/h4&gt;
+&lt;p&gt;I will be creating a storytelling app that offers drag and drop style animation elements.
+The storytelling editor will have a timeline which can be used to move elements on the screen. However where it differs from After effects or similar programs is that, the elements on the screen react according to the data received back from calling the API.
+For example the weather in the scene changes according to the current weather or a character reacts to the current news (say from NYTimes).
+ Node js will mainly be used for serving data using an API, accepting input, managing sessions and storing information in a database. &lt;/p&gt;
+
+&lt;p&gt;You can see the protoype &lt;a href=&quot;http://evening-wave-1710.herokuapp.com/&quot;&gt;here&lt;/a&gt;&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://adarshk.com/itp/DynamicWebWeek1&quot;&gt;Dynamic web - Project Idea&lt;/a&gt; was originally published by Adarsh Kosuru at &lt;a href=&quot;http://adarshk.com/itp&quot;&gt;ITP Blog&lt;/a&gt; on April 14, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

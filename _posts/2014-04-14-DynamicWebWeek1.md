@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Project Idea"
+title: "Dynamic web - Project Idea"
 description: ""
 tags: [DynamicWeb]
 comments: true  
