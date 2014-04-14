@@ -20,3 +20,12 @@ For example the weather in the scene changes according to the current weather or
 Node js will mainly be used for serving data using an API, accepting input, managing sessions and storing information in a database. 
 
 For this I made a prototype version which you can find [here](http://adarshk.com/itp/mashups/wk8/index.html)
+
+I used PaperJS for the animation which is using SVG to draw on the canvas.
+
+![Image]({{ site.url }}/images/work/mashups/mashups-week2-shot1.png)
+<!-- ![Image]({{ site.url }}/images/work/mashups/mashups-week2-shot2.png) -->
+
+<figure>
+	<img src="images/work/mashups/mashups-week2-shot2.png" width="50%" height="50%">
+</figure>
