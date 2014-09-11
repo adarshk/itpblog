@@ -4,13 +4,125 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://adarshk.com/itp/feed.xml" />
 <link rel="alternate" type="text/html" href="http://adarshk.com/itp" />
-<updated>2014-09-10T12:09:08-04:00</updated>
+<updated>2014-09-11T14:40:02-04:00</updated>
 <id>http://adarshk.com/itp/</id>
 <author>
   <name>Adarsh Kosuru</name>
   <uri>http://adarshk.com/itp/</uri>
   <email>adarshkosuru @ email.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Project Development studio week 1]]></title>
+  <link>http://adarshk.com/itp/ProjectDevelopmentStudioWeek1</link>
+  <id>http://adarshk.com/itp/ProjectDevelopmentStudioWeek1</id>
+  <published>2014-09-11T00:00:00-04:00</published>
+  <updated>2014-09-11T00:00:00-04:00</updated>
+  <author>
+    <name>Adarsh Kosuru</name>
+    <uri>http://adarshk.com/itp</uri>
+    <email>adarshkosuru @ email.com</email>
+  </author>
+  <content type="html">&lt;h3 id=&quot;concise-description&quot;&gt;Concise Description&lt;/h3&gt;
+
+&lt;p&gt;To create a computer graphics library that is based on Disney’s &lt;a href=&quot;https://vimeo.com/93206523&quot;&gt;12 principles of animation&lt;/a&gt;. By using the library to write a few lines of code, be able to make a character out of any primary shape for example a sphere, cube , circle, triangle etc. Through this process, I also expect to learn more about graphics programming (OpenGL). This will be developed in C++ possibly using Cinder.&lt;/p&gt;
+
+&lt;h4 id=&quot;who-is-it-for&quot;&gt;Who is it for?&lt;/h4&gt;
+&lt;p&gt;It is mainly for myself with the possibility of being used by others if the development gets to a stage where the code is polished.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-do-you-want-as-a-user-even-if-it-is-for-yourself-when-interacting-with-the-work-to-&quot;&gt;What do you want as a user (even if it is for yourself) when interacting with the work to ?&lt;/h4&gt;
+
+&lt;h4 id=&quot;feel&quot;&gt;– Feel&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;	I want the user to feel in control of what they create. #### -- Do
+	I want to be able to let the user create animations with only by importing the library and writing a few lines of code. The user will be able to tweak and play around with the parameters. These animations would have otherwise needed to be done in animation software like After Effects or Blender.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;know&quot;&gt;– Know&lt;/h4&gt;
+&lt;pre&gt;&lt;code&gt;	The user doesn&#39;t need to know much about animation while getting results that may have taken a lot more time otherwise. The idea is to make it approachable to creating animations using code.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&quot;what-is-the-problem-you-are-trying-to-solve-and-what-is-your-recommended-solution&quot;&gt;What is the “problem” you are trying to solve and what is your recommended solution&lt;/h4&gt;
+&lt;p&gt;When I was learning processing the problem I found is that it is really hard to create simple pleasing animations using code. Either knowledge of the way graphics work was required or other animation software like Blender or After Effects had to be used to achieve the same result. This meant that these softwares had to be learnt and the same skills couldn’t be carried across different softwares. The library will help in prototyping with animations by making it more approachable even though the user may not have previous experience with animation. &lt;/p&gt;
+
+&lt;p&gt;Solution:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Study other animation libraries and understand how basic animations are performed.&lt;/li&gt;
+  &lt;li&gt;Prototype using Cinder or Processing.&lt;/li&gt;
+  &lt;li&gt;Start by creating animations for 2D shapes&lt;/li&gt;
+  &lt;li&gt;Study animations for 3D shapes and think about parameters necessary for the user to be in control of the shapes.&lt;/li&gt;
+  &lt;li&gt;Make the code into a library. &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;why-use-code-instead-of-creating-animations-in-&quot;&gt;Why use code instead of creating animations in ……..?&lt;/h4&gt;
+&lt;p&gt;Code allows the applications to have a lot more flexibility. The user doesn’t need to be restricted to a video format. With code the prototyping can be much faster while also allowing the user to perform and draw advanced graphics and animations.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-are-the-opportunities-that-you-see-in-the-problem-space&quot;&gt;What are the opportunities that you see in the problem space?&lt;/h4&gt;
+&lt;p&gt;There are a lot of opportunities in this space. 
+1. To able to give any user who is either learning to write code or experimenting to create graphics/animations the ability to perform animations with very little setup and requirements.
+2. To be able to create animations that previously would require the use of other animation software that had their own learning curve.
+3. The possibility of letting the user learn coding and animation through experimentation and prototyping.&lt;/p&gt;
+
+&lt;h4 id=&quot;what-are-the-general-challenges-in-the-problem-area-and-what-do-you-think-will-be-your-specific-challenges&quot;&gt;What are the general challenges in the problem area and what do you think will be your specific challenges&lt;/h4&gt;
+&lt;p&gt;The general challenges in the area is that its difficult to create animations that look both pleasing in a small amount of time using with little knowledge about the process. The user has to go through a training phase of first understanding the process and software before making something. Depending on how skilled the user is, this can take anywhere from few hours to weeks.
+Challenges:&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Leaning the theory of graphics and animations can take up time.&lt;/li&gt;
+  &lt;li&gt;Understanding what animations need to be performed needs to investigated by looking at other animations, artists and lots of experimentation.&lt;/li&gt;
+  &lt;li&gt;Making a library that would help with quick prototyping while providing decent results.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;what-research-with-references-have-you-done-so-far-articles-related-projects-materials-etc&quot;&gt;What research (with references) have you done so far (articles, related projects, materials etc)&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;https://vimeo.com/93206523&lt;/li&gt;
+  &lt;li&gt;I have been reading books on computer graphics during the summer&lt;/li&gt;
+  &lt;li&gt;I also been prototyping with simple code however I haven’t made too much progress.&lt;/li&gt;
+  &lt;li&gt;I have also been looking at other frameworks like &lt;a href=&quot;libcinder.org&quot;&gt;cinder&lt;/a&gt;, &lt;a href=&quot;openframeworks.cc&quot;&gt;openframeworks&lt;/a&gt; and &lt;a href=&quot;processing.org&quot;&gt;processing&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;what-are-the-technical-interactional-requirements-for-your-project&quot;&gt;What are the technical, interactional requirements for your project&lt;/h3&gt;
+&lt;p&gt;Technical : Theory of graphics, OpenGL, C++, understand how animations are performed.
+Interactional : Understand graphics and animations by looking at the code of creative frameworks like cinder/openframeworks/processing/threejs.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;What kind of algorithms are required for the animations?&lt;/li&gt;
+  &lt;li&gt;Can I learn by looking at other libraries that are out there?&lt;/li&gt;
+  &lt;li&gt;How do I ask and receive feedback if this was used by other animators or developers?&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;what-are-your-criteria-of-success-how-will-you-know-you-have-succeeded--how-do-you-plan-to-evaluate-this-success&quot;&gt;What are your criteria of success (how will you know you have succeeded) &amp;amp; how do you plan to evaluate this success?&lt;/h4&gt;
+&lt;p&gt;By the end of the process if I am able to understand more about graphics, animations and be able to perform those with minimal effort of coding.
+I plan to let others who have little experience with coding to use the library and see if they are able to use it and create animations by just reading the documentation.&lt;/p&gt;
+
+&lt;h4 id=&quot;timeline&quot;&gt;Timeline&lt;/h4&gt;
+
+&lt;p&gt;Week 1 - Read theory behind simple animations and prototype&lt;/p&gt;
+
+&lt;p&gt;Week 2 &amp;amp; 3- Continue prototyping with Cinder&lt;/p&gt;
+
+&lt;p&gt;Week 4 &amp;amp; 5 - Write code to perform animations for one primary 2d shape&lt;/p&gt;
+
+&lt;p&gt;Week 6 - Get feedback&lt;/p&gt;
+
+&lt;p&gt;Week 7 - Tweak according to feedback&lt;/p&gt;
+
+&lt;p&gt;Week 8 - Write code to perform animations with other primary shapes&lt;/p&gt;
+
+&lt;p&gt;Week 9 &amp;amp; 10 - Prototype with 3d shape&lt;/p&gt;
+
+&lt;p&gt;Week 11 - Get feedback and tweak for other shapes&lt;/p&gt;
+
+&lt;p&gt;Week 12 - Package code into library&lt;/p&gt;
+
+&lt;p&gt;Week 13 - Cleanup&lt;/p&gt;
+
+&lt;p&gt;Week 14 - Presentation&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://adarshk.com/itp/ProjectDevelopmentStudioWeek1&quot;&gt;Project Development studio week 1&lt;/a&gt; was originally published by Adarsh Kosuru at &lt;a href=&quot;http://adarshk.com/itp&quot;&gt;ITP Blog&lt;/a&gt; on September 11, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
