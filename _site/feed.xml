@@ -4,13 +4,90 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://adarshk.com/itp/feed.xml" />
 <link rel="alternate" type="text/html" href="http://adarshk.com/itp" />
-<updated>2014-09-11T14:43:31-04:00</updated>
+<updated>2014-09-29T09:17:04-04:00</updated>
 <id>http://adarshk.com/itp/</id>
 <author>
   <name>Adarsh Kosuru</name>
   <uri>http://adarshk.com/itp/</uri>
   <email>adarshkosuru @ email.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Code of Music Week 3]]></title>
+  <link>http://adarshk.com/itp/CodeOfMusicWeek3</link>
+  <id>http://adarshk.com/itp/CodeOfMusicWeek3</id>
+  <published>2014-09-28T00:00:00-04:00</published>
+  <updated>2014-09-28T00:00:00-04:00</updated>
+  <author>
+    <name>Adarsh Kosuru</name>
+    <uri>http://adarshk.com/itp</uri>
+    <email>adarshkosuru @ email.com</email>
+  </author>
+  <content type="html">&lt;h3 id=&quot;the-code-of-music-week-3---cymbal--tabla&quot;&gt;The Code of Music Week 3 - Cymbal &amp;amp; Tabla&lt;/h3&gt;
+
+&lt;p&gt;For this assignment, I decided to examine the Cymbal and the Tabla  using the principles laid out in the The Design of Everyday things by Don Norman.&lt;/p&gt;
+
+&lt;h4 id=&quot;affordances&quot;&gt;Affordances&lt;/h4&gt;
+
+&lt;p&gt;Norman says that affordances provide strong clues to the operation of things. Both the instruments the Cymbal and the Tabla provide strong clues as to how they should be used. If we give a pair of Cymbals to a person who has never seen them before they will most likely be picked up with 2 hands. Contrast this with the Tabla which is a percussion instrument mainly played in India which sits on the ground and is meant to be played while sitting down. The tabla consists of a two percussion set, the bigger and the smaller one. However its not immediately obvious which hand plays which one. Its actually based on personal prefences like writing with a pen. Many people play the bigger one with the left and the smaller one with the right while its reversed for some people.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Cymbals&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://artdrum.com/IMAGES/PHOTOSDRUMSINSTRUMENTS/INSTRUMENT_MAINTENANCE/CYMBAL/HHX_Synergy_Heavy_20_inch.jpg&quot; alt=&quot;Image of Cymbals&quot; style=&quot;width: 250px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;Tabla - Only one word used to indicate a set of two percussion drums&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://upload.wikimedia.org/wikipedia/commons/e/e4/Prop._Tabla.jpg&quot; alt=&quot;Image of Cymbals&quot; style=&quot;width: 250px;&quot; /&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;feedback&quot;&gt;Feedback&lt;/h4&gt;
+
+&lt;p&gt;The instruments are really obvious in the way they give feedback to the user. The Cymbals when played with each other give sound. The harder they are hit the more sound that comes out. The tabla is also similar. The Cymbals produce more or less similar sounds no matter how they are played (excluding the loudness) where with the tabla the sound changes based on what part of it is played on&lt;/p&gt;
+
+&lt;p&gt;Video link - &lt;a href=&quot;http://youtu.be/0KQj-abXrPk?t=12m4s&quot;&gt;playing Tabla&lt;/a&gt;&lt;/p&gt;
+
+&lt;h4 id=&quot;mapping&quot;&gt;Mapping&lt;/h4&gt;
+&lt;p&gt;The Cymbals are not meant to played directly with hands or fingers. Rather they are used with a drumstick or in pairs. The area of the roundness of the cymbals says something about how they meant to be used. They are really only meant to make a particular kind of sound and nothing else.&lt;/p&gt;
+
+&lt;p&gt;The Tabla however is played with movement of hands and fingers. This movement is important in playing the instrument but it may not be intuitive unless it is learnt.&lt;/p&gt;
+
+&lt;h4 id=&quot;visibility&quot;&gt;Visibility&lt;/h4&gt;
+
+&lt;p&gt;Both of them are made, built and look like that for a reason. Even though the surfaces are flat on both the instruments they function differently. The contrasting sizes of the tabla are usually angled with the help of supports that are present to give the hands a natural position. The cymbals have supports to put your hands inside them to be able to carry them.&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://adarshk.com/itp/CodeOfMusicWeek3&quot;&gt;Code of Music Week 3&lt;/a&gt; was originally published by Adarsh Kosuru at &lt;a href=&quot;http://adarshk.com/itp&quot;&gt;ITP Blog&lt;/a&gt; on September 28, 2014.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Code of Music Week 1]]></title>
+  <link>http://adarshk.com/itp/Code-Of-Music-week1</link>
+  <id>http://adarshk.com/itp/Code-Of-Music-week1</id>
+  <published>2014-09-14T00:00:00-04:00</published>
+  <updated>2014-09-14T00:00:00-04:00</updated>
+  <author>
+    <name>Adarsh Kosuru</name>
+    <uri>http://adarshk.com/itp</uri>
+    <email>adarshkosuru @ email.com</email>
+  </author>
+  <content type="html">&lt;h4 id=&quot;week-1&quot;&gt;Week 1&lt;/h4&gt;
+
+&lt;p&gt;During the class, we were assigned to design an interface for a sequencer using only the words that we got from the oblique strategies &lt;a href=&quot;http://www.joshharrison.net/oblique-strategies/&quot;&gt;website&lt;/a&gt;. I and &lt;a href=&quot;http://www.jffng.com/&quot;&gt;Jeff&lt;/a&gt; got &lt;/p&gt;
+
+&lt;h4 id=&quot;listen-to-the-quiet-voice-and-2which-parts-can-be-grouped&quot;&gt;1. Listen to the quiet voice and 2.Which parts can be grouped&lt;/h4&gt;
+
+&lt;p&gt;We chose &lt;a href=&quot;http://proto.blandhand.net/patr/&quot;&gt;this&lt;/a&gt; sequencer that we found online to do our drawings. &lt;/p&gt;
+
+&lt;p&gt;We ended up with a dial layout that can be changed easily. We grouped the buttons together - play &amp;amp; shuffle, clear and reset and  pace &amp;amp; length. And finally we grouped the tones and made these as buttons instead of a drop down on the website.&lt;/p&gt;
+
+&lt;p&gt;Here the photo before
+&lt;img src=&quot;http://adarshk.com/itp/images/work/codeofmusic/website-photo.png&quot; alt=&quot;ScreenGrabWebsite&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After
+&lt;img src=&quot;http://adarshk.com/itp/images/work/codeofmusic/code-of-music-week1.jpg&quot; alt=&quot;Week1&quot; /&gt;&lt;/p&gt;
+
+  &lt;p&gt;&lt;a href=&quot;http://adarshk.com/itp/Code-Of-Music-week1&quot;&gt;Code of Music Week 1&lt;/a&gt; was originally published by Adarsh Kosuru at &lt;a href=&quot;http://adarshk.com/itp&quot;&gt;ITP Blog&lt;/a&gt; on September 14, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
