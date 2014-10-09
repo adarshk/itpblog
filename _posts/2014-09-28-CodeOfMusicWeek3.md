@@ -21,7 +21,7 @@ Norman says that affordances provide strong clues to the operation of things. Bo
 <img src="http://artdrum.com/IMAGES/PHOTOSDRUMSINSTRUMENTS/INSTRUMENT_MAINTENANCE/CYMBAL/HHX_Synergy_Heavy_20_inch.jpg" alt="Image of Cymbals" style="width: 250px;"/>
 
 
-***Tabla - Only one word used to indicate a set of two percussion drums***
+***Tabla***
 
 <img src="http://upload.wikimedia.org/wikipedia/commons/e/e4/Prop._Tabla.jpg" alt="Image of Cymbals" style="width: 250px;"/>
 
