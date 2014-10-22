@@ -4,13 +4,51 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http://adarshk.com/itp/feed.xml" />
 <link rel="alternate" type="text/html" href="http://adarshk.com/itp" />
-<updated>2014-10-22T16:23:04-04:00</updated>
+<updated>2014-10-22T19:27:00-04:00</updated>
 <id>http://adarshk.com/itp/</id>
 <author>
   <name>Adarsh Kosuru</name>
   <uri>http://adarshk.com/itp/</uri>
   <email>adarshkosuru @ email.com</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Project Development studio week 7]]></title>
+  <link>http://adarshk.com/itp/ProjectDevelopmentStudioWeek7</link>
+  <id>http://adarshk.com/itp/ProjectDevelopmentStudioWeek7</id>
+  <published>2014-10-22T00:00:00-04:00</published>
+  <updated>2014-10-22T00:00:00-04:00</updated>
+  <author>
+    <name>Adarsh Kosuru</name>
+    <uri>http://adarshk.com/itp</uri>
+    <email>adarshkosuru @ email.com</email>
+  </author>
+  <content type="html">&lt;h4 id=&quot;weekly-work&quot;&gt;Weekly work&lt;/h4&gt;
+
+&lt;p&gt;This week I decided to explore movement. I wanted to get a better understanding of movement using code so I wrote to see that and screen recorded the video:&lt;/p&gt;
+
+&lt;iframe src=&quot;//player.vimeo.com/video/109750437&quot; width=&quot;500&quot; height=&quot;434&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;http://vimeo.com/109750437&quot;&gt;seaCucumber&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/adarshk&quot;&gt;Adarsh K&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The same one without lighting&lt;/p&gt;
+
+&lt;iframe src=&quot;//player.vimeo.com/video/109750786&quot; width=&quot;500&quot; height=&quot;391&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;http://vimeo.com/109750786&quot;&gt;seaCucumber noShader&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/adarshk&quot;&gt;Adarsh K&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Using cubes&lt;/p&gt;
+
+&lt;iframe src=&quot;//player.vimeo.com/video/109750438&quot; width=&quot;500&quot; height=&quot;327&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;http://vimeo.com/109750438&quot;&gt;seaCucumber Cube&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/adarshk&quot;&gt;Adarsh K&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Using Spheres&lt;/p&gt;
+
+&lt;iframe src=&quot;//player.vimeo.com/video/109750514&quot; width=&quot;500&quot; height=&quot;311&quot; frameborder=&quot;0&quot; webkitallowfullscreen=&quot;&quot; mozallowfullscreen=&quot;&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href=&quot;http://vimeo.com/109750514&quot;&gt;seaCucumber sphere&lt;/a&gt; from &lt;a href=&quot;http://vimeo.com/adarshk&quot;&gt;Adarsh K&lt;/a&gt; on &lt;a href=&quot;https://vimeo.com&quot;&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+
+  &lt;p&gt;&lt;a href=&quot;http://adarshk.com/itp/ProjectDevelopmentStudioWeek7&quot;&gt;Project Development studio week 7&lt;/a&gt; was originally published by Adarsh Kosuru at &lt;a href=&quot;http://adarshk.com/itp&quot;&gt;ITP Blog&lt;/a&gt; on October 22, 2014.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -740,32 +778,6 @@ console.log(bzz || i);   }
 &lt;iframe src=&quot;https://docs.google.com/presentation/d/1M6KbpjVgGTAmso_Edl8Z_o3gKrLXLdn-oafEQJR2qbI/embed?start=false&amp;amp;loop=false&amp;amp;delayms=3000&quot; frameborder=&quot;0&quot; width=&quot;480&quot; height=&quot;299&quot; allowfullscreen=&quot;true&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot;&gt;&lt;/iframe&gt;
 
   &lt;p&gt;&lt;a href=&quot;http://adarshk.com/itp/Design-Expo-Week-1&quot;&gt;Design Expo&lt;/a&gt; was originally published by Adarsh Kosuru at &lt;a href=&quot;http://adarshk.com/itp&quot;&gt;ITP Blog&lt;/a&gt; on February 03, 2014.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Always on Always Connected Week 1]]></title>
-  <link>http://adarshk.com/itp/AlwaysOn-week1</link>
-  <id>http://adarshk.com/itp/AlwaysOn-week1</id>
-  <published>2014-01-29T00:00:00-05:00</published>
-  <updated>2014-01-29T00:00:00-05:00</updated>
-  <author>
-    <name>Adarsh Kosuru</name>
-    <uri>http://adarshk.com/itp</uri>
-    <email>adarshkosuru @ email.com</email>
-  </author>
-  <content type="html">&lt;h3 id=&quot;relationship-with-my-phone&quot;&gt;Relationship with my phone&lt;/h3&gt;
-
-&lt;p&gt;The relationship with my phone is somewhat a strange one. I have been using one for many years now. Over the years, the amount of time I spend with it has only increased. And the amount of time I am &lt;em&gt;expected&lt;/em&gt; to spend with it has also increased. By that I mean, I am expected to respond to emails, calls, texts etc faster. The people on the other side sending me stuff assume that I have already seen the content as soon as they sent it. While the number of ways to communicate has taken on different forms such as social networking sites, photo sharing, the phone is still the primary enabler of this complex connected world. Ten years ago this was not the case. I did not own a cellphone that time let alone a featurephone. &lt;/p&gt;
-
-&lt;p&gt;Nowadays almost everything is done through my phone. Bus, Plane, Train, Movie tickets, receipts, exchanging text, photos, having video calls, playing games, connecting with friends on social networks, consuming news and a lot of times buying things. In fact there are very few things that I dont do with my phone. With my phone carrying such a huge importance, it is not over the top to say the phone is merely an extension of me. It has become such an important part of my life that I couldnt imagine a life without it. My smartphone has become the de facto way of living life.&lt;/p&gt;
-
-&lt;p&gt;I think the value of the phone is less about the monetary price of the object and more about incredible human value and life memories that I derive from it. But it can also be an easy distraction. Just like any other medium its not without its problems. Because communication has become so cheap I value it less everyday. It’s easy to forsake human relationships by substituting your phone. But it’s also true vice versa.&lt;/p&gt;
-
-&lt;p&gt;As I said in the beginning the relationship with my phone is somewhat a strange one. Whenever I want to get some work done I usually put it aside and not let it distract me. However looking forward I only see this getting reversed. As more of the functionality moves into the phone, it will only make it harder to ignore.&lt;/p&gt;
-
-
-  &lt;p&gt;&lt;a href=&quot;http://adarshk.com/itp/AlwaysOn-week1&quot;&gt;Always on Always Connected Week 1&lt;/a&gt; was originally published by Adarsh Kosuru at &lt;a href=&quot;http://adarshk.com/itp&quot;&gt;ITP Blog&lt;/a&gt; on January 29, 2014.&lt;/p&gt;</content>
 </entry>
 
 </feed>
